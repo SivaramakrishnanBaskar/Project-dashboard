@@ -1,5 +1,33 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    text-emphasis-color: black;
+}
+table{
+    border-collapse: collapse;
+    width: 50;
+    margin: auto;
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th{
+    background-color: lightcyan;
+    border: 1px solid black;
+    padding: 8px;
+}
+thead{
+    Font-weight: bolder;
+    background-color: goldenrod;
+    color: burlywood;
+}
+
+tbody> tr:hover{
+    background-color: red;
+    color: white;
+
 }
